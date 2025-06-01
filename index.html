@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Bekary Shop</title>
+      <script src="https://cdn.tailwindcss.com"></script>
+      <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+      <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Ancizar+Sans:ital,wght@0,100..1000;1,100..1000&family=Merienda:wght@300..900&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="style.css">
+</head>
+<body>
+      <div id="nav" class="flex flex-col md:flex-row bg-white px-4 md:mx-24 p-4 sticky top-0 z-50 shadow-2xl md:justify-between items-center text-[19px]">
+            <div class="w-full md:w-auto flex justify-between items-center">
+                  <h4 id="h3" class="cursor-pointer text-black text-[24px] transform transition duration-300 hover:scale-105 hover:underline hover:text-orange-500">Bakery</h4>
+                  <button class="md:hidden text-black" onclick="document.getElementById('mobile-menu').classList.toggle('hidden')">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                  </button>
+            </div>
+            <div id="mobile-menu" class="hidden w-full md:flex md:w-auto">
+                  <ul class="flex flex-col text-[24px] md:flex-row md:gap-14 w-full text-center">
+                        <a href="#hero"><li class="py-2 md:py-0"><i class="cursor-pointer transform transition duration-300 hover:scale-105 hover:underline hover:text-orange-500">Home</i></li></a>
+                        <a href="#about"><li class="py-2 md:py-0"><i class="cursor-pointer transform transition duration-300 hover:scale-105 hover:underline hover:text-orange-500">About Us</i></li></a>
+                        <a href="#oder"><li class="py-2 md:py-0"><i class="cursor-pointer transform transition duration-300 hover:scale-105 hover:underline hover:text-orange-500">Favorites</i></li></a>
+                        <a href="#Visit"><li class="py-2 md:py-0"><i class="cursor-pointer transform transition duration-300 hover:scale-105 hover:underline hover:text-orange-500">Location</i></li></a>
+                  </ul>
+            </div>
+      </div>
+
+
+          <!-- about Section -->
+
+       <div class="flex bg-white  justify-center items-center">
+            <div class="carousel h-[550px]  w-[1200px]">
+
+                  <!--SLIDE 01-->
+                  <div id="slide1" class="carousel-item flex justify-center items-center relative w-full">
+                        <div class="flex justify-center items-center">
+                              <div class="flex w-[650px] ml-32 gap-5 flex-col">
+                                    <h2 class="text-black l text-6xl font-bold">Crispy And <br> Delicious <span class="text-red-400">Pizzas</span></h2>
+                                    <p class="text-[16px]  text-black w-[450px]">Craving a cheesy slice? We’ve got you covered with handcrafted pizzas made from the finest ingredients.Fast delivery, amazing taste — satisfaction guaranteed.Order now and treat yourself to the perfect bite!</p>
+                                    <button class="bg-[rgb(231,111,81)] font-semibold text-center text-[17px] w-40 hover:w-44 cursor-pointer rounded-xl text-white p-3 shadow-lg hover:shadow-2xl hover:bg-[rgb(221,121,71)]">Order Pizza Now</button>
+                              </div>
+                              <img class="h-[360px] mr-28" src="img/home1.png" class="w-full" />
+                        </div>
+                       <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                           <a href="#slide4" class="btn btn-circle">❮</a>
+                           <a href="#slide2" class="btn btn-circle">❯</a>
+                       </div>
+                  </div>
+
+                  <!--SLIDE 02-->
+
+                  <div id="slide2" class="carousel-item flex justify-center items-center relative w-full">
+                        <div class="flex justify-center items-center">
+                              <div class="flex w-[650px] ml-28 gap-5 flex-col">
+                                    <h2 class="text-black text-6xl font-bold">Crispy And <br> Delicious <span class="text-red-400">Pizzas</span></h2>
+                                    <p class="text-[16px]  text-black w-[450px]">Craving a cheesy slice? We’ve got you covered with handcrafted pizzas made from the finest ingredients.Fast delivery, amazing taste — satisfaction guaranteed.Order now and treat yourself to the perfect bite!</p>
+                                    <button class="bg-[rgb(231,111,81)] font-semibold text-center text-[17px] w-40 hover:w-44 cursor-pointer rounded-xl text-white p-3 shadow-lg hover:shadow-2xl hover:bg-[rgb(221,121,71)]">Order Pizza Now</button>
+                              </div>
+                              <img class="h-[350px] mr-20" src="img/home2.png" class="w-full" />
+                        </div>
+                        <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                            <a href="#slide1" class="btn btn-circle">❮</a>
+                            <a href="#slide3" class="btn btn-circle">❯</a>
+                        </div>
+                  </div>
+
+
+                  <!--SLIDE 03-->
+
+                  <div id="slide3" class="carousel-item flex justify-center items-center relative w-full">
+                        <div class="flex justify-center items-center">
+                              <div class="flex w-[650px] ml-32 gap-5 flex-col">
+                                    <h2 class="text-black text-6xl font-bold">Crispy And <br> Delicious <span class="text-red-400">Pizzas</span></h2>
+                                    <p class="text-[16px] text-black w-[450px]">Craving a cheesy slice? We’ve got you covered with handcrafted pizzas made from the finest ingredients.Fast delivery, amazing taste — satisfaction guaranteed.Order now and treat yourself to the perfect bite!</p>
+                                    <button class="bg-[rgb(231,111,81)] font-semibold text-center text-[17px] w-40 hover:w-44 cursor-pointer rounded-xl text-white p-3 shadow-lg hover:shadow-2xl hover:bg-[rgb(221,121,71)]">Order Pizza Now</button>
+                              </div>
+                              <img class="h-[360px] mr-28" src="img/home3.png" class="w-full" />
+                        </div>
+                        <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                            <a href="#slide2" class="btn btn-circle">❮</a>
+                            <a href="#slide4" class="btn btn-circle">❯</a>
+                        </div>
+                  </div>
+      </div>
+
+
+</body>
+</html>
