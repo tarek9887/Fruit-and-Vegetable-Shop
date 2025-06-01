@@ -1,3 +1,11 @@
+ --green-color: #3cb815; /* Represents freshness and organic appeal */
+  --light-green-color: #c0eb7b; /* Light green for accents and highlights */
+  --orange-color: #ff7e00; /* Warm orange for call-to-action buttons */
+  --light-orange-color: #f75f1d; /* Interactive hover states */
+  --text-color: #1a2428; /* Dark text for readability */
+  --bg-color: #fff; /* Clean, white background */
+
+
 
 ancizar-sans-<uniquifier> {
   font-family: "Ancizar Sans", sans-serif;
