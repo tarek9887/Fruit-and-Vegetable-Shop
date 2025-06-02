@@ -6,6 +6,17 @@
   --bg-color: #fff; /* Clean, white background */
 
 
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Ancizar+Sans:ital,wght@0,100..1000;1,100..1000&family=Lora:ital,wght@0,400..700;1,400..700&family=Merienda:wght@300..900&display=swap');
+</style>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Ancizar+Sans:ital,wght@0,100..1000;1,100..1000&family=Merienda:wght@300..900&display=swap');
+</style>
+ font-family: "Ancizar Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 
 ancizar-sans-<uniquifier> {
   font-family: "Ancizar Sans", sans-serif;
