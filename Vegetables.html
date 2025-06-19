@@ -14,6 +14,29 @@
 </head>
 <body>
 
+      <div id="nav" class="flex flex-col md:flex-row bg-white px-20 p-3 sticky top-0 z-50  md:justify-between items-center text-[19px]">
+            <div class="w-full md:w-auto flex justify-between items-center">
+                  <h4 class="cursor-pointer text-lime-500 font-semibold text-[25px] transform transition duration-300 hover:scale-105 hover:text-[#3cb815]">Delicacy</h4>
+                  <button class="md:hidden text-black" onclick="document.getElementById('mobile-menu').classList.toggle('hidden')">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                  </button>
+            </div>
+            <div id="mobile-menu" class="hidden w-full md:flex md:w-auto">
+                  <ul class="flex flex-col text-[23px] md:flex-row md:gap-14 w-full text-center">
+                        <a href="index.html"><li class="py-2 md:py-0"><i class="cursor-pointer transform transition duration-300 hover:scale-105 hover:underline hover:text-[#3cb815]">Home</i></li></a>
+                        <a href="Fruits.html"><li class="py-2 md:py-0"><i class="cursor-pointer transform transition duration-300 hover:scale-105 hover:underline hover:text-[#3cb815]">Fruit</i></li></a>
+                        <a href="Vegetables.html"><li class="py-2 md:py-0"><i class="cursor-pointer transform transition duration-300 hover:scale-105 hover:underline hover:text-[#3cb815]">Vegetable</i></li></a>
+                        <a href="Drinks.html"><li class="py-2 md:py-0"><i class="cursor-pointer transform transition duration-300 hover:scale-105 hover:underline hover:text-[#3cb815]">Drinks</i></li></a>
+                        <a href="Spices.html"><li class="py-2 md:py-0"><i class="cursor-pointer transform transition duration-300 hover:scale-105 hover:underline hover:text-[#3cb815]">Spices</i></li></a>
+                        <a href="FreshNuts.html"><li class="py-2 md:py-0"><i class="cursor-pointer transform transition duration-300 hover:scale-105 hover:underline hover:text-[#3cb815]">Fresh-Nuts</i></li></a>
+                  </ul>
+            </div>
+      </div>
+
+
+        <!--Hero section-->
       <div class="bg-[url('vegetables/background.jpg')] flex  justify-center text-center items-center h-[600px] bg-cover">
             <div class="items-center flex flex-col text-center">
                  <h1 class="text-3xl text-white md:text-3xl font-semibold">Choose Your Fresh <span class="text-green-600">Vegetables</span> From us</h1>
